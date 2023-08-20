@@ -9,7 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "browser:build": "webpack --config ./webpack.browser.config.js",
+    "browser:build": "webpack --config ./webpack.browser.config.mjs",
     "browser:start": "npm run browser:build && npx serve -l 8080 ./dist",
     "lint": "eslint --ext .ts,.tsx .",
     "test": "echo 1"

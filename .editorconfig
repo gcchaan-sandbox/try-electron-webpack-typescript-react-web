@@ -7,5 +7,5 @@ indent_size = 4
 max_line_length = 120
 trim_trailing_whitespace = true
 
-[*.{yml,yaml,json,js,jsx,ts,tsx,css}]
+[*.{yml,yaml,json,js,mjs,jsx,ts,tsx,css}]
 indent_size = 2
